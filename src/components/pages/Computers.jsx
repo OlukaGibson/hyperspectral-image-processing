@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Background from "./background.png";
 import Navbar from '../Navbar'
+import BrandDisplay from "../BrandDisplay";
 
 const Computers = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -39,7 +40,7 @@ const Computers = () => {
              <Navbar />
         </div>
         <Computersdisplay />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );

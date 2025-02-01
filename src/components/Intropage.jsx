@@ -41,6 +41,13 @@ const Intropage = () => {
         backgroundColor: 'rgba(75,192,192,0.4)',
         borderColor: 'rgba(75,192,192,1)',
       },
+      {
+        label: 'Dataset 2',
+        data: [80, 81, 65, 59, 40, 56, 55],
+        fill: false,
+        backgroundColor: 'rgba(116, 41, 11, 0.4)',
+        borderColor: 'rgb(233, 134, 54)',
+      },
     ],
   };
 
@@ -75,7 +82,7 @@ const Intropage = () => {
     responsive: true,
     plugins: {
       legend: {
-        position: 'top',
+        position: 'bottom',
       },
       title: {
         display: true,
@@ -88,11 +95,11 @@ const Intropage = () => {
     <div className="h-screen flex flex-col bg-cover">
       <div className="flex-grow flex justify-center items-center mt-20">
         <div className="flex flex-row text-center items-center py-10 px-6 md:px-20 w-11/12 md:w-3/4 h-3/4 bg-white rounded-xl bg-opacity-80 text-white">
-          <div className="w-3/4 p-4">
+          <div className="w-1/2 p-4">
             <Line data={lineData} options={options} />
           </div>
-          <div className="w-2/4 p-4">
-            <Pie data={pieData} />
+          <div className="w-1/2 p-4">
+            <Pie data={pieData} options={{ ...options, title: { display: true, text: 'Chart.js Pie Chart' } }} />
           </div>
         </div>
       </div>
