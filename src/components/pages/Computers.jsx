@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Background from "./background.png";
-import Computersdisplay from '../Computersdisplay'
 import Navbar from '../Navbar'
-import Footer from "../Footer";
 
 const Computers = () => {
   const [scrollPosition, setScrollPosition] = useState(0);

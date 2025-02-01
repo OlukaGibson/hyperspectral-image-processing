@@ -21,41 +21,17 @@ const Navbar = () => {
             <ul className="flex space-x-10">
               <li className="text-gray-100">
                 <a href="" className="p-1 text-gray-100">
-                  <Link to="/">HOME</Link>
+                  <Link to="/">Hyperspectral Image Processing</Link>
                 </a>
               </li>
               <li className="text-gray-100">
                 <a href="" className="p-1 text-gray-100">
-                  <Link to="/computers">Computers</Link>
+                  <Link to="/computers">Dev Team</Link>
                 </a>
               </li>
-              <li className="text-gray-100">
-                <a href="" className="p-1 text-gray-100">
-                  {/* <Link to="/services">Services</Link> */}
-                  <Link to="/">Services</Link>
-                </a>
-              </li>
-              <li className="text-gray-100">
-                <a href="" className="p-1 text-gray-100">
-                  {/* <Link to="/accessories">Accessories</Link> */}
-                  <Link to="/">Accessories</Link>
-                </a>
-              </li>
-              <li className="text-gray-100">
-                <a href="" className="p-1 text-gray-100">
-                  Contact
-                </a>
-              </li>
-              <li className="text-gray-100">
-                <a href="" className="p-1 text-gray-100">
-                  {/* <Link to="/explore">Explore</Link> */}
-                  <Link to="/">Explore</Link>
-                </a>
-              </li>
-              {/* <li className="text-gray-100"> */}
-              <a href="" className="p-1 text-gray-100">
+              {/* <a href="" className="p-1 text-gray-100">
                 <BiSearch />
-              </a>
+              </a> */}
               {/* </li> */}
             </ul>
           </div>
@@ -70,35 +46,12 @@ const Navbar = () => {
             <ul className="space-y-4">
               <li className="text-gray-100">
                 <a href="" className="p-1 text-gray-100">
-                  <Link to="/">HOME</Link>
+                  <Link to="/">Hyperspectral Image Processing</Link>
                 </a>
               </li>
               <li className="text-gray-100">
                 <a href="" className="p-1 text-gray-100">
-                  <Link to="/computers">Computers</Link>
-                </a>
-              </li>
-              <li className="text-gray-100">
-                <a href="" className="p-1 text-gray-100">
-                  {/* <Link to="/services">Services</Link> */}
-                  <Link to="/">Services</Link>
-                </a>
-              </li>
-              <li className="text-gray-100">
-                <a href="" className="p-1 text-gray-100">
-                  {/* <Link to="/accessories">Accessories</Link> */}
-                  <Link to="/">Accessories</Link>
-                </a>
-              </li>
-              <li className="text-gray-100">
-                <a href="" className="p-1 text-gray-100">
-                  Contact
-                </a>
-              </li>
-              <li className="text-gray-100">
-              <a href="" className="p-1 text-gray-100">
-                  {/* <Link to="/explore">Explore</Link> */}
-                  <Link to="/">Explore</Link>
+                  <Link to="/computers">Dev Team</Link>
                 </a>
               </li>
             </ul>
